@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  border: 1px solid #000;
+  background-color: green;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  font-size: 2em;
+  text-shadow: 0 0 10px #fff;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background-color: #fff;
+  color: green;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.todos {
+  margin-top: 20px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.todo .left {
+  display: flex;
+  align-items: center;
+}
+
+.todo .right {
+  display: flex;
+  align-items: center;
+}
+
+.todo input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo button {
+  margin-left: 10px;
+}
